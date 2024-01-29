@@ -41,7 +41,7 @@ def game():
 
 
   if user >= 3 or user <= 0:
-    print("invalid command")
+    print("Invalid command")
   elif (user == 0) and (ai == 1):
     print("You lost")
   elif (user == 0) and (ai == 1):
@@ -51,11 +51,11 @@ def game():
   elif user == 1 and ai == 1:
     print("Draw")
   elif user == 1 and ai == 0:
-    print("você ganhou")
+    print("You win")
   elif user == 1 and ai == 2:
     print("You lost")
   elif user == 2 and ai == 2:
-    print("empate")
+    print("Draw")
   elif user == 2 and ai == 0:
     print("You lost")
   elif user == 2 and ai == 1:
